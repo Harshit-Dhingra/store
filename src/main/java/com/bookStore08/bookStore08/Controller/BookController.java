@@ -23,7 +23,7 @@ public class BookController
     @GetMapping("/")
     public String home()
     {
-        System.out.println("home");
+        System.out.println("home 2");
         return "home";
     }
     @GetMapping("/book_register")
